@@ -1,0 +1,15 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+
+- url: /Release
+  static_dir: Release
+
+- url: /TemplateData
+  static_dir: TemplateData
+
